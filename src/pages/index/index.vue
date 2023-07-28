@@ -15,7 +15,7 @@ export default {
   components: {
     'thread-list': ThreadList,
   },
-  setup () {
+  setup() {
     const loading = reactive(true)
     const threads = reactive([])
 
